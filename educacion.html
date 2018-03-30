@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name = "viewport" content = "initial-scale = 1.0, user-scalable = no, width=device-width">
+  <title>Evaluación Final</title>
+
+</head>
+<body>
+	<svg width="150px" height="100px" viewBox="0 0 150 100">
+		<image xlink:href="imagen/logo.svg" width="190px" height="140px"></image>
+	</svg>
+
+	<h1>Resumen curricular</h1>
+	<p><h2>Datos Personales</h2></p>
+	<ul>
+		<li><h3>Nombres : César Eduardo</h3></li>
+		<li><h3>Apellidos : Palomino Galindo</h3></li>
+		<li><h3>Fecha de Nacimiento : 02 de Junio de 1969</h3></li>
+		<li><h3>Lugar de Nacimiento : Huancayo - Perú</h3></li>
+	</ul>
+	</br>
+	<p>
+   	<h2>Enlaces de Menú Básico</h2>
+   	<ul>
+   		<li><a href="index.html">Inicio</li>
+		<li><a href="educacion.html">Educación</a></li>
+		<li><a href="experiencia.html">Experiencia</a></li>
+	</ul>
+	</p>
+
+	<h2>Educación</h2>
+
+	<table border="1" cellpadding="2" cellspacing="0">
+           <thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>Culminó?</th>
+				</tr>
+           </thead>
+           <tbody>
+				<tr>
+					<td>2014</td>
+					<td>Universidad de San Martín de Porres</td>
+					<td>Lima - Perú</td>
+					<td>Si</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>Universidad Nacional de Ingeniería</td>
+					<td>Lima - Perú</td>
+					<td>Si</td>
+				</tr>
+            </tbody>
+	</table>
+
+	<h2>Agregar Estudios</h2>
+
+	<form autocomplete="on" name="Educación">
+		<p>
+		<label for="Año">Año :</label>
+		<select>
+			<option>2017</option>
+			<option>2016</option>
+			<option>2015</option>
+			<option>2014</option>
+			<option>2013</option>
+			<option>2012</option>
+			<option>2011</option>
+			<option>2010</option>
+			<option>2009</option>
+		</select>
+		</p>
+		<p>
+			Institución : 
+			<input type="text" name="campo_apellido" required><br/>
+		</p>
+		<p>
+		<label for="Comentarios">Lugar:</label>
+		<textarea name="area_texto" rows="4" cols="40"></textarea>
+		</p>
+		<p>
+		<label for="genero">Culmino :</label>
+				<b>Si</b><input type="radio" id="si">
+				<b>No</b><input type="radio" id="no">
+		</p>
+		<p>
+			<input type="submit" id="Enviar">
+		</p>
+		
+	</form>
+
+	<footer>
+   		<p><b>© Todos los Derechos Reservados</b></p>
+   		<ul>
+   			<li>Contacto  : cpalominog@gmail.com</li>
+   			<li>Teléfono  : 977567096</li>
+   			<li>Dirección : Jr. Ilo 318 Lima - Perú</li>
+   		</ul>
+   	</footer>
+</body>
+</html>
